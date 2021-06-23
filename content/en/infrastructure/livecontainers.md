@@ -138,7 +138,7 @@ The Kubernetes resources view for Live Containers used to require [Agent version
 
 If you are using the official [Datadog Helm Chart][1]:
 
-- Use chart version above 2.4.5 and before 2.10.0. Starting from chart version 2.10.0 onwards, refer to the [latest configuration instructions][18] instead.
+- Use chart version above 2.4.5 and before 2.10.0. Starting from chart version 2.10.0 onwards, refer to the [latest configuration instructions][17] instead.
   **Note**: Ensure the Agent and Cluster Agent versions are hardcoded with the minimum versions required or above in your Helm chart [values.yaml][2] file.
 - Set `datadog.orchestratorExplorer.enabled` to `true` in [values.yaml][2]
 - Deploy a new release.
